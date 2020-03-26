@@ -41,7 +41,7 @@ Breadcrumb.propTypes = {
 
 Breadcrumb.defaultProps = {
     label: undefined,
-    href: 'javascript:void(0);',
+    href: '',
     onClick: () => {},
     disabled: false,
     className: undefined,

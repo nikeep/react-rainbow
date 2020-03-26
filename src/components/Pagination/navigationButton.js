@@ -30,7 +30,7 @@ export default function NavigationButton(props) {
                 className={getClassName()}
                 data-id={dataId}
                 onClick={handleOnClick}
-                href="javascript:void(0);"
+                href=""
                 aria-disabled={!!disabled}
                 tabIndex={getTabIndex()}
                 aria-label={ariaLabel}

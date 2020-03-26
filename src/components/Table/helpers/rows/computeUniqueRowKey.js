@@ -7,6 +7,8 @@ export default function computeUniqueRowKey(rowData, keyField) {
     const value = getFieldValue(rowData, keyField);
     if (value && typeof value === 'string') {
         return value;
+    } else {
+    	return value+'';
     }
     if (rowIndex === 0) {
         console.error('The "keyField" passed is not valid.');
